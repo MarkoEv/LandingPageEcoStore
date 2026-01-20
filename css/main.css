@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFEFE7;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+}
+nav h3 {
+  color: #7C6A0A;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+nav button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+nav ul {
+  margin: 25px;
+}
+nav .icons {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+nav li {
+  list-style: none;
+}
+nav li svg {
+  width: 22px;
+}
+nav li .cart,
+nav li .profile,
+nav li .wishlist {
+  display: none;
+}
+
+main .section-main {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+  gap: 20px;
+}
+main .section-main .image-impact {
+  width: 100%;
+}
+main .section-main .image-impact img {
+  border-radius: 10px;
+  aspect-ratio: 9/9;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section-main .info-impact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+main .section-main .info-impact h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #7C6A0A;
+}
+main .section-main .info-impact p {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #7C6A0A;
+  font-size: 12px;
+  font-weight: 400;
+}
+main .section-main .info-impact button {
+  width: 120px;
+  background-color: #FA9500;
+  border: 1px solid;
+  color: #FFEFE7;
+  height: 40px;
+  border-radius: 50px;
+  align-self: center;
+}
+main .title h3 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #7C6A0A;
+}
+main .section-products-health,
+main .section-products-decoration {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 3fr));
+  gap: 10px;
+  justify-items: center;
+}
+main .section-products-health .card,
+main .section-products-decoration .card {
+  background-color: #FFDAC6;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+}
+main .section-products-health .card header button,
+main .section-products-decoration .card header button {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+main .section-products-health .card figure,
+main .section-products-decoration .card figure {
+  margin: 20px;
+}
+main .section-products-health .card figure img,
+main .section-products-decoration .card figure img {
+  width: 100%;
+  cursor: pointer;
+  background-color: black;
+}
+main .section-products-health .card footer,
+main .section-products-decoration .card footer {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #7C6A0A;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+main .section-products-health .card footer h5,
+main .section-products-decoration .card footer h5 {
+  font-size: 16px;
+}
+main .section-products-health .card footer p,
+main .section-products-decoration .card footer p {
+  font-size: 9.24px;
+}
+main .about-info {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(650px, 3fr));
+  gap: 20px;
+  justify-items: center;
+  justify-content: center;
+}
+main .about-info img {
+  width: 73px;
+  height: 73.85px;
+}
+main .about-info .mission,
+main .about-info .vision {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  align-items: center;
+  margin-top: 20px;
+}
+main .about-info p {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #7C6A0A;
+  color: #E86424;
+  font-weight: 500;
+}
+main .gallery {
+  margin: 25px;
+}
+main .gallery .images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+  gap: 20px;
+  justify-items: center;
+}
+main .gallery .images img {
+  width: 80%;
+  aspect-ratio: 7/9;
+  -o-object-fit: 20px;
+     object-fit: 20px;
+  border-radius: 20px;
+}
+main .location {
+  margin: 25px;
+}
+main .location .map img {
+  width: 100%;
+}
+main .location address {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #7C6A0A;
+  text-align: center;
+}
+main .location address h4 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #E86424;
+}
+main .location address h5 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #E86424;
+}
+
+.footer-class {
+  background-color: #FA9500;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #7C6A0A;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-class .head {
+  margin: 25px;
+}
+.footer-class .head h3 {
+  font-weight: 500;
+  font-size: 31px;
+  color: #FFEFE7;
+}
+.footer-class .list {
+  margin: 25px;
+}
+.footer-class .list ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+  gap: 20px;
+}
+.footer-class .list ul li {
+  list-style: none;
+  font-size: 24px;
+  font-weight: 400;
+  color: #FFEFE7;
+}
+.footer-class .iconos {
+  margin: 25px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (min-width: 720px) {
+  nav li .cart,
+  nav li .profile,
+  nav li .wishlist {
+    display: flex;
+  }
+  nav li .menu {
+    display: none;
+  }
+  main .section-main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  main .section-main .info-impact {
+    gap: 100px !important;
+  }
+  main .section-products-decoration,
+  main .section-products-health {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+    gap: 10px;
+  }
+  .footer-class .iconos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+    gap: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */
