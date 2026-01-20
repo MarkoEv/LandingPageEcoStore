@@ -10,14 +10,13 @@ Landing page **responsive** para una tienda ecológica llamada **Eco-store**, de
 
 ## ✨ Características
 
-✅ Diseño moderno y adaptable a cualquier dispositivo (**responsive**)
-✅ Estilos organizados con **Sass (SCSS)** para mayor escalabilidad
-✅ Uso de **CSS Grid** para la sección de productos
-✅ Uso de **Flexbox** para alineación y distribución de elementos
-✅ Tipografía desde **Google Fonts** (IBM Plex Sans)
-✅ Íconos integrados con **Font Awesome**
-✅ Estructura modular con **variables y mixins** para reutilizar estilos
-
+- Diseño moderno y adaptable a cualquier dispositivo (**responsive**)
+- Estilos organizados con **Sass (SCSS)** para mayor escalabilidad
+- Uso de **CSS Grid** para la sección de productos
+- Uso de **Flexbox** para alineación y distribución de elementos
+- Tipografía desde **Google Fonts** (IBM Plex Sans)
+- Íconos integrados con **Font Awesome**
+- Estructura modular con **variables y mixins** para reutilizar estilos
 ---
 
 ## 🛠️ Tecnologías usadas
@@ -125,6 +124,6 @@ Este proyecto fue creado con el objetivo de practicar:
 ## 👤 Autor
 
 **Marco Antonio Evangelista Armenta**
-Desarrollador Web
+- Desarrollador Web
 
 ---
