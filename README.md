@@ -78,7 +78,7 @@ cd LandingPageEcoStore
 
 Si deseas modificar los estilos desde `main.scss`, puedes compilarlo a CSS con:
 
-### Opción 1: Sass CLI
+### Sass CLI
 
 Instala Sass:
 
