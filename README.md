@@ -21,8 +21,6 @@ Landing page **responsive** para una tienda ecológica llamada **Eco-store**, de
 
 ## 🛠️ Tecnologías usadas
 
-(Con íconos / logotipos)
-
 * 🌐 **HTML5**
 * 🎨 **CSS3**
 * 🧩 **Sass / SCSS**
